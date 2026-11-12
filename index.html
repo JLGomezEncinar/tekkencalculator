@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ranking de jugadores</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Clasificación de jugadores</h1>
+        <p>Arrastra las fotografías hasta los huecos correspondientes.</p>
+    </header>
+
+    <main>
+
+        <!-- Zona superior -->
+        <section class="zona-principal">
+
+            <!-- Galería de fotografías -->
+            <section class="panel galeria-panel">
+
+                <h2>Galería de jugadores</h2>
+
+                <div id="galeria" class="galeria">
+                    <!-- Las imágenes se generan con JavaScript -->
+                </div>
+
+            </section>
+
+
+            <!-- Zona de huecos -->
+            <section class="panel huecos-panel">
+
+                <h2>Clasificación por posiciones</h2>
+
+                <div id="huecos" class="huecos">
+                    <!-- Los huecos se generan con JavaScript -->
+                </div>
+
+            </section>
+
+        </section>
+
+
+        <!-- Tabla de clasificación -->
+        <section class="panel ranking-panel">
+
+            <h2>Ranking general</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Posición</th>
+                        <th>Jugador</th>
+                        <th>Puntuación</th>
+                    </tr>
+                </thead>
+
+                <tbody id="ranking">
+                    <!-- Las filas se generan con JavaScript -->
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
