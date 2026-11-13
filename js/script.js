@@ -300,7 +300,7 @@ function mostrarRanking() {
         fila.innerHTML = `
             
             <td>${index + 1}</td>
-            <td>${foto.title}</td>
+            <td>${foto.title} (${foto.puntosMaster})</td>
             <td>${foto.puntosTotales}</td>
         `;
 
